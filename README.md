@@ -37,12 +37,11 @@ Or, download the [current build](dist/hashicon.umd.js).
 Usage
 ---
 
-The hash value can be any kind of hash, string or integer.
+The hash value can be any kind of string.
 ```js
 const hash = "0xdc53525847b67a9e32d80066202d5744c86ae500"; // hash ( e.g. etc adress )
 const hash = "1F1tAaz5x1HUXrCNLbtMDqcw5o5GNn4xqX"; // hash ( e.g. btc adress )
 const hash = "BlueSky23"; // string ( e.g. a username )
-const hash = 3948382; //integer  ( e.g. a userid )
 ```
 
 Create a `hashicon` with default params:
